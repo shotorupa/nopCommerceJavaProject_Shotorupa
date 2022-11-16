@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="nopCommerceJavaProject_Shotorupa">
+  
+  
+  
+  <listeners>
+  
+  <listener class-name="testListener.Listener"/>  
+ 
+ 
+  
+  </listeners>
+  
+ 
+     
+   
+   
+     <test name="Test Basics 1">
+      <parameter name="browser" value="chrome"/>
+      <classes>
+     <!-- <class name="com.inetBanking.TestCases.TC_LoginTest_001"/> -->
+      <class name="testRunner.TestRun"/>
+      </classes>
+   </test> <!-- Test -->
+   
+   
+   
+   
+   
+  
+   
+   
+   
+   
+
+
+</suite> <!-- Suite -->
